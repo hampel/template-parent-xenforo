@@ -1,0 +1,17 @@
+{
+    "legacy_addon_id": "",
+    "title": "Template Parent",
+    "description": "Adds a new template variable $xf.reply.templateParent which groups all thread_view* and forum_view* templates together",
+    "version_id": 1000070,
+    "version_string": "1.0.0",
+    "dev": "Simon Hampel",
+    "dev_url": "https://bitbucket.org/hampel/",
+    "faq_url": "",
+    "support_url": "https://bitbucket.org/hampel/template-parent-xenforo/issues",
+    "extra_urls": {
+        "Git Repository": "https://bitbucket.org/hampel/template-parent-xenforo",
+        "Twitter": "https://twitter.com/SimonHampel"
+    },
+    "require": [],
+    "icon": "fa-child"
+}
