@@ -9,11 +9,11 @@ class Listener
 			$controller = $reply->getControllerClass();
 			$action = $reply->getAction();
 
-			if ($controller == 'XF:Forum' && $action == 'Forum')
+			if (($controller == 'XF:Forum' || $controller == 'XF\Pub\Controller\ForumController') && $action == 'Forum')
 			{
 				$data['reply']['templateParent'] = 'forum_view';
 			}
-			elseif ($controller == 'XF:Thread' && $action == 'Index')
+			elseif (($controller == 'XF:Thread' || $controller == 'XF\Pub\Controller\ThreadController') && $action == 'Index')
 			{
 				$data['reply']['templateParent'] = 'thread_view';
 			}
