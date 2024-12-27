@@ -7,5 +7,5 @@ forum_view* templates together
 More information here: [Items This Page](https://xenforo.com/community/resources/)
 (XenForo Addon Resource)
 
-By [Simon Hampel](https://twitter.com/SimonHampel).
+By [Simon Hampel](https://xenforo.com/community/members/sim.4264/).
 
